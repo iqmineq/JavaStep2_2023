@@ -4,28 +4,24 @@ public class StudentMain2 {
 
 	public static void main(String[] args) {
 		
-		
-		Student1 studentLee=new Student1();
+		Student2 studentLee=new Student2();
 		studentLee.setStudentName("이재민");
-	    studentLee.studentID=studentLee.serialNumber;
-		System.out.println("이름 : "+studentLee.StudentName+"|아이디 : "+studentLee.serialNumber);
-		Student1.serialNumber++;//10001
+		System.out.println("이름 : "+studentLee.StudentName +
+									" | 아이디 : "+studentLee.studentID);
 		
 		System.out.println();
-		
-		Student1 studentKim=new Student1();
-		studentKim.setStudentName("김장우");
-		System.out.println("이름 : "+studentKim.StudentName+"|아이디 : "+studentKim.serialNumber);
-		Student1.serialNumber++;
-		
+		Student2 studentKim=new Student2();
+		studentKim.setStudentName("김창우");
+		System.out.println("이름 : "+studentKim.StudentName +
+									" | 아이디 : "+studentKim.studentID);
+	
 		System.out.println();
+		Student2 studentPark=new Student2();
+		studentPark.setStudentName("박창훈");		
+		System.out.println("이름 : "+studentPark.StudentName +
+									" | 아이디 : "+studentPark.studentID);
 		
-		Student1 studentPark=new Student1();
-		studentPark.setStudentName("박창훈");
-		System.out.println("이름 : "+studentPark.StudentName+"|아이디 : "+studentPark.serialNumber);
-		Student1.serialNumber++;
-		
-		
+	
 	}
 
 }

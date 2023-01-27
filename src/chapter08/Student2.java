@@ -1,6 +1,8 @@
 package chapter08;
 
 public class Student2 {
+	
+	
 	public static int serialNumber = 10000;
 	int studentID;
 	String StudentName;

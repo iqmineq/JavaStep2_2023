@@ -23,6 +23,7 @@ public class StudentMain {
 		
 		System.out.println();
 		
+		
 		Student1 studentPark=new Student1();
 		studentLee.setStudentName("박창훈");
 		System.out.println(studentPark.StudentName);
